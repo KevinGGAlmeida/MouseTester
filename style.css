@@ -1,3 +1,7 @@
+:root{
+    --CorFundo: rgb(127, 147, 236);
+    --CorBotao: rgb(0, 47, 255);
+}
 *{
     padding: 0;
     margin:0;
@@ -11,8 +15,16 @@ main{
     justify-content:center;
 }
 
+
+
+.top{
+    display: flex;
+    width: 100%;
+    background-color: var(--CorFundo);
+
+}
+
 #Titulo{
-    background-color: lightgoldenrodyellow;
     width:100%;
     text-align: center;
     padding:20px;
@@ -49,40 +61,47 @@ header p{
     justify-content: center;
     align-items: center;
     margin-top: 80px;
+    color:white;
 
 }
 
 #BtnEsq{
     margin:10px;
-    background-color: lightgoldenrodyellow;
-    padding:20px
-
+    background-color: var(--CorBotao);
+    padding:20px;
+    border-radius: 50px;
+    border:1px solid black;
 }
 
 #BtnMeio{
     margin:10px;
-    background-color: lightgoldenrodyellow;
-    padding:20px
-
+    background-color: var(--CorBotao);
+    padding:20px;
+    border-radius: 50px;
+    border:1px solid black;
 }
 
 #BtnDir{
     margin:10px;
-    background-color: lightgoldenrodyellow;
-    padding:20px
+    background-color: var(--CorBotao);
+    padding:20px;
+    border-radius: 50px;
+    border:1px solid black;
 }
 
 
 #Reset{
-    background-color: lightgoldenrodyellow;
+    background-color: var(--CorBotao);
     width:200px;
     height: 80px;
     border-radius: 50px;
+    color:white;
+    border: 1px solid black;
 }
 
 
 footer{
-    background-color: lightgoldenrodyellow;
+    background-color: var(--CorFundo);
     width:100%;
     text-align: center;
     padding:40px;
